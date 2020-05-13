@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Net.WebSockets;
 using System.Threading.Tasks;
 using TestChat.Entities;
+using TestChat.Services;
 
 namespace TestChat
 {
@@ -11,6 +13,11 @@ namespace TestChat
 
         static async Task Main(string[] args)
         {
+            //setup our DI
+            var serviceProvider = new ServiceCollection()
+                .AddSingleton<ClientService, ClientService>()
+                .BuildServiceProvider();
+
             int portNo = 0;
             string userName = "";
 
@@ -33,17 +40,25 @@ namespace TestChat
                 return;
             }
 
+            var clientService = serviceProvider.GetService<ClientService>();
+
+            await StartChat(clientService, userName, portNo);
+
+        }
+
+        private static async Task StartChat(ClientService clientService, string userName, int portNo)
+        {
             using (var socket = new ClientWebSocket())
             {
                 try
                 {
-                    await ClientChat.Connect(socket, Connection + ":" + portNo);
+                    await clientService.Connect(socket, Connection + ":" + portNo);
 
                     var input = userName + " connected!";
                     ChatMessage chatMessage = new ChatMessage() { User = "", Message = input };
 
-                    await ClientChat.Send(socket, chatMessage);
-                    Console.WriteLine("Press exit for exit!");
+                    await clientService.Send(socket, chatMessage);
+                    Console.WriteLine("Type leaveChat for exit!");
 
                     chatMessage.User = userName;
 
@@ -58,8 +73,8 @@ namespace TestChat
                         {
                             case "leaveChat":
                                 chatMessage.Message = userName + " disconnected!";
-                                await ClientChat.Send(socket, chatMessage);
-                                await ClientChat.Disconnect(socket, chatMessage.Message);
+                                await clientService.Send(socket, chatMessage);
+                                await clientService.Disconnect(socket, chatMessage.Message);
                                 exit = true;
                                 break;
                             case "":

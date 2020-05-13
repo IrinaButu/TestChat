@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H7WQZMY0IQY5aQ4TBRWZlzegMqEhrgv6FXWoJhDgVbjWMGcceA6gNL4rpWWQlJ5XryiuZn2crsF4vgK8u6oODA==",
+  "dgSpecHash": "XFojSkt2yg7D9J9GrWzKpKtmWq8zdVpukhQ32JMCwsIWpkzzoZRcxxkY3Mx+9YLPw1+KC0HTm22E/xJd/H6cjA==",
   "success": true,
   "projectFilePath": "D:\\work\\test\\Voicemed\\TestChat\\TestChat\\TestChat.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo L450\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\Lenovo L450\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,4 @@
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csprojAssemblyReference.cache
-D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csproj.CoreCompileInputs.cache
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.AssemblyInfoInputs.cache
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.AssemblyInfo.cs
 D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.exe
@@ -12,3 +11,6 @@ D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csproj.
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.dll
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.pdb
 D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.genruntimeconfig.cache
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csproj.CoreCompileInputs.cache
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
