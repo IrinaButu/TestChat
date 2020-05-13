@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestChat": {
+      "commandName": "Project",
+      "commandLineArgs": "8181 client"
+    }
+  }
+}

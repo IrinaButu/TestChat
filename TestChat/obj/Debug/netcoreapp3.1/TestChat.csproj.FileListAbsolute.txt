@@ -1,0 +1,14 @@
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csprojAssemblyReference.cache
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csproj.CoreCompileInputs.cache
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.AssemblyInfoInputs.cache
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.AssemblyInfo.cs
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.exe
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.deps.json
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.runtimeconfig.json
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.runtimeconfig.dev.json
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.dll
+D:\work\test\Voicemed\TestChat\TestChat\bin\Debug\netcoreapp3.1\TestChat.pdb
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.csproj.CopyComplete
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.dll
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.pdb
+D:\work\test\Voicemed\TestChat\TestChat\obj\Debug\netcoreapp3.1\TestChat.genruntimeconfig.cache
